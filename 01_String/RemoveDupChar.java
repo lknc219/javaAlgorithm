@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
-    public String solution(String str) {
+public class RemoveDupChar {
+    /*public String solution(String str) {
         String answer = "";
         ArrayList<Character> chars = new ArrayList<Character>();
         StringBuilder sb = new StringBuilder();
@@ -16,10 +16,24 @@ public class Main {
 
         answer = sb.toString();
         return answer;
+    }*/
+
+    public String solution(String str) {
+        String answer = "";
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < str.length(); i++) {
+            if (str.indexOf(str.charAt(i)) == i) {
+                sb.append(str.charAt(i));
+            }
+        }
+
+        answer = sb.toString();
+        return answer;
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        RemoveDupChar T = new RemoveDupChar();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
 
