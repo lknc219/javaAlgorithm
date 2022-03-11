@@ -1,21 +1,18 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    public int solution(String str) {
-        str = str.toUpperCase().replaceAll("[^0-9]","");
-        if (str.length() > 9) {
-            str = str.substring(0,10);
-        }
-        int answer = Integer.valueOf(str);
-
-        return answer;
-    }
-
-    // 강의 내용
-    public int solution2(String str) {
-        int answer = 0;
-        for (char x : str.toCharArray()) {
-            if(x >= 48 && x <= 57) answer = answer * 10 + (x-48);
+    public String solution(String s, int strCnt) {
+        String answer = "";
+        int lt = 0;
+        int rt = 7;
+        String tmp = "";
+        for (int i = 0; i < strCnt; i++) {
+            tmp = s.substring(lt, rt).replace("#", "1").replace("*","0");
+            int intTmp = Integer.parseInt(tmp, 10);
+            System.out.println("intTmp = " + intTmp);
+            lt += 7;
+            rt += 7;
         }
         return answer;
     }
@@ -23,9 +20,8 @@ public class Main {
     public static void main(String[] args) {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
-        String str = kb.nextLine();
-
-        // System.out.println(T.solution(str));
-        System.out.println(T.solution2(str));
+        int strCnt = kb.nextInt();
+        String str = kb.next();
+        System.out.println(T.solution(str, strCnt));
     }
 }
