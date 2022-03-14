@@ -1,7 +1,6 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class YoungheePassword {
     public String solution(String s, int strCnt) {
         String answer = "";
         int lt = 0;
@@ -20,7 +19,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        YoungheePassword T = new YoungheePassword();
         Scanner kb = new Scanner(System.in);
         int strCnt = kb.nextInt();
         String str = kb.next();
