@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PalindromeCheck_01 {
+public class Str_PalindromeCheck_01 {
     public String solution(String str) {
         str = str.toUpperCase(); // 대소문자 구분 X
         String answer = "YES";
@@ -19,7 +19,7 @@ public class PalindromeCheck_01 {
     }
 
     public static void main(String[] args) {
-        PalindromeCheck_01 T = new PalindromeCheck_01();
+        Str_PalindromeCheck_01 T = new Str_PalindromeCheck_01();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
 

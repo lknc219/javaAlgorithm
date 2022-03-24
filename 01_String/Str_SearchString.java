@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SearchString {
+public class Str_SearchString {
     public int solution(String str, char c) {
         int answer = 0;
         str = str.toUpperCase();
@@ -20,7 +20,7 @@ public class SearchString {
     }
 
     public static void main(String[] args) {
-        SearchString T = new SearchString();
+        Str_SearchString T = new Str_SearchString();
         Scanner kb = new Scanner(System.in);
 
         String str = kb.next();

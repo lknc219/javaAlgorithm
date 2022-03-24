@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MaxStringLength {
+public class Str_MaxStringLength {
     public String solution(String str) {
         String answer = "";
         String[] strSp = str.split(" ");
@@ -13,7 +13,7 @@ public class MaxStringLength {
     }
 
     public static void main(String[] args) {
-        MaxStringLength T = new MaxStringLength();
+        Str_MaxStringLength T = new Str_MaxStringLength();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
 

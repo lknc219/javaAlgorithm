@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StringReverse_02 {
+public class Str_StringReverse_02 {
     public String solution(String str) {
         String answer;
         int lt = 0;
@@ -24,7 +24,7 @@ public class StringReverse_02 {
     }
 
     public static void main(String[] args) {
-        StringReverse_02 T = new StringReverse_02();
+        Str_StringReverse_02 T = new Str_StringReverse_02();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
 

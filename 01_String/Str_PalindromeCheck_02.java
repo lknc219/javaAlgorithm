@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PalindromeCheck_02 {
+public class Str_PalindromeCheck_02 {
     public String solution(String str) {
         str = str.toUpperCase().replaceAll("[^A-Z]",""); // 대소문자 구분 X
         String answer = "NO";
@@ -11,7 +11,7 @@ public class PalindromeCheck_02 {
     }
 
     public static void main(String[] args) {
-        PalindromeCheck_02 T = new PalindromeCheck_02();
+        Str_PalindromeCheck_02 T = new Str_PalindromeCheck_02();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
 

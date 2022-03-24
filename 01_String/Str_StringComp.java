@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StringComp {
+public class Str_StringComp {
     public String solution(String s) {
         String answer = "";
         char[] chars = s.toCharArray();
@@ -28,7 +28,7 @@ public class StringComp {
     }
 
     public static void main(String[] args) {
-        StringComp T = new StringComp();
+        Str_StringComp T = new Str_StringComp();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
         System.out.println(T.solution(str));

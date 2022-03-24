@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StringReverse_01 {
+public class Str_StringReverse_01 {
     public void solution(String[] strArr) {
         String answer = "";
         StringBuilder sb = new StringBuilder();
@@ -14,7 +14,7 @@ public class StringReverse_01 {
     }
 
     public static void main(String[] args) {
-        StringReverse_01 T = new StringReverse_01();
+        Str_StringReverse_01 T = new Str_StringReverse_01();
         Scanner kb = new Scanner(System.in);
 
         int count = kb.nextInt();

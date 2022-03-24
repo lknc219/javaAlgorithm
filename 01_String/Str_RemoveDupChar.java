@@ -1,7 +1,6 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
-public class RemoveDupChar {
+public class Str_RemoveDupChar {
     /*public String solution(String str) {
         String answer = "";
         ArrayList<Character> chars = new ArrayList<Character>();
@@ -33,7 +32,7 @@ public class RemoveDupChar {
     }
 
     public static void main(String[] args) {
-        RemoveDupChar T = new RemoveDupChar();
+        Str_RemoveDupChar T = new Str_RemoveDupChar();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
 

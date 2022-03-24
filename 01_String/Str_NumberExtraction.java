@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NumberExtraction {
+public class Str_NumberExtraction {
     public int solution(String str) {
         str = str.toUpperCase().replaceAll("[^0-9]","");
         if (str.length() > 9) {
@@ -21,7 +21,7 @@ public class NumberExtraction {
     }
 
     public static void main(String[] args) {
-        NumberExtraction T = new NumberExtraction();
+        Str_NumberExtraction T = new Str_NumberExtraction();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
 

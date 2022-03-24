@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class YoungheePassword {
+public class Str_YoungheePassword {
     public String solution(String s, int strCnt) {
         String answer = "";
         int lt = 0;
@@ -19,7 +19,7 @@ public class YoungheePassword {
     }
 
     public static void main(String[] args) {
-        YoungheePassword T = new YoungheePassword();
+        Str_YoungheePassword T = new Str_YoungheePassword();
         Scanner kb = new Scanner(System.in);
         int strCnt = kb.nextInt();
         String str = kb.next();

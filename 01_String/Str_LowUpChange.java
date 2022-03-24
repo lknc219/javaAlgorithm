@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LowUpChange {
+public class Str_LowUpChange {
     public String solution(String str) {
         String answer = "";
         StringBuilder sb = new StringBuilder();
@@ -16,7 +16,7 @@ public class LowUpChange {
     }
 
     public static void main(String[] args) {
-        LowUpChange T = new LowUpChange();
+        Str_LowUpChange T = new Str_LowUpChange();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
 

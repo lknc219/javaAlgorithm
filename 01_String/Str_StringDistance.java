@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class StringDistance {
+public class Str_StringDistance {
     public ArrayList<Integer> solution(String s, char t) {
         char[] chars = s.toCharArray();
         ArrayList<Integer> answer = new ArrayList<>();
@@ -35,7 +35,7 @@ public class StringDistance {
     }
 
     public static void main(String[] args) {
-        StringDistance T = new StringDistance();
+        Str_StringDistance T = new Str_StringDistance();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
         char c = kb.next().charAt(0);
