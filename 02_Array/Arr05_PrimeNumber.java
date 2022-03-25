@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Main {
+public class Arr05_PrimeNumber {
 
    /* public int solution(int n) {
         int answer = 0;
@@ -44,7 +44,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Arr05_PrimeNumber T = new Arr05_PrimeNumber();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
 
