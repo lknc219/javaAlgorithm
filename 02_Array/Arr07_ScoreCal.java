@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Arr07_ScoreCal {
 
     public int solution(int[] intArr) {
         int answer = 0;
@@ -17,7 +17,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Arr07_ScoreCal T = new Arr07_ScoreCal();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] intArr = new int[n];
